@@ -24,7 +24,7 @@ const Home = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          `${import.meta.env.VITE_BACKEND_URL}/api/v1/posts`,
+          'https://dalle-herl.onrender.com/api/v1/posts',
           {
             method: 'GET',
             headers: {
